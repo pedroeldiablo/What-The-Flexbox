@@ -29,8 +29,38 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
-.container {
+/*.container {
   display:flex;
   border:10px solid goldenrod;
-  height:100vh;
+  min-height:100vh;
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+  /*flex-direction: column;*/
+/*}*/
+
+/*.box {*/
+  /*width: 33.33333333%;*/
+  /*margin: 10px;
+}*/
+
+/*.container {
+  display:flex;
+}
+
+.box {
+  flex:1;
+
+}
+
+.box3 {
+  order:1;
+}
+
+.box7 {
+  order:2;
+}*/
+
+.container {
+  display:flex;
+  justify-content: space-around;
 }
